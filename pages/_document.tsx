@@ -13,7 +13,12 @@ export default function Document() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="The Rock" />
-        <meta property="og:description" content="The Rock Description" />
+        <meta
+          property="og:description"
+          content={`The Rock Description 
+        The Rock Description
+        The Rock Description`}
+        />
         <meta
           property="og:image"
           content="https://yaimg.yanolja.com/v5/2023/10/18/14/640/652fe6bfe3b9e4.23846689.jpg"
